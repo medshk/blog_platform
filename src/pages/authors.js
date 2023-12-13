@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react/cjs/react.development";
+import { useEffect, useState } from "react";
 import { auth, getAuthors } from "../firebaseConfig";
 import Loader from "../components/layout/loader";
 const Authors = () => {

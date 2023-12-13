@@ -10,7 +10,7 @@ import house from "../images/house.jpg";
 import subway from "../images/subway.jpg";
 import PostCard from "../components/post/postCard";
 import { getPosts, getAuthor } from "../firebaseConfig";
-import { useCallback, useEffect, useState } from "react/cjs/react.development";
+import { useCallback, useEffect, useState } from "react";
 import { useAuth } from "../contexts/authContext";
 import Loader from "../components/layout/loader";
 const Posts = () => {

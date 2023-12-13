@@ -9,13 +9,15 @@ const MostViewedPosts = () => {
     <div className="top-posts">
       <div className="post item1">
         <div>
-          <a href="">
+          <Link to="/post/mQ4P6E44PKdDbkp2KbWF">
             <img src={item1} alt="" />
-          </a>
+          </Link>
         </div>
         <div className="post-content">
           <span>TRAVEL</span>
-          <a href="">Best destinations for summer 2024</a>
+          <Link to="/post/mQ4P6E44PKdDbkp2KbWF">
+            Best destinations for summer 2024
+          </Link>
         </div>
       </div>
       <div className="post">
