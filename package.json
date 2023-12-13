@@ -29,14 +29,14 @@
     "editorjs-html": "^3.4.2",
     "editorjs-viewer": "0.0.1",
     "firebase": "^9.6.6",
-    "firebase-admin": "^10.0.2",
+    "firebase-admin": "^12.0.0",
     "firebase-functions": "^3.16.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-editor-js": "^2.0.3",
     "react-hook-form": "^7.22.5",
     "react-router-dom": "^6.2.1",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.1",
     "swiper": "^6.8.4",
     "swr": "^1.2.1",
     "typescript": "^4.5.2",
@@ -44,7 +44,7 @@
     "yup": "^0.32.11"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
